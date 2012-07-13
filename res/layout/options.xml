@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="@drawable/menu1"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:padding="10dip">
+	
+	    <LinearLayout
+			android:orientation="vertical"
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:layout_gravity="center" >
+			<Button
+				android:id="@+id/button_open_lex_library"
+				android:text="@+string/open_lex_library"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_margin="30dip"
+				android:background="@drawable/btn_black" 
+				style="@style/ButtonText"
+				/>
+				
+			<Button
+				android:id="@+id/button_open_comm_library"
+				android:text="@+string/open_comm_library"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_margin="30dip"
+				android:background="@drawable/btn_black" 
+				style="@style/ButtonText"
+				/>
+		
+			<Button
+				android:id="@+id/button_about"
+				android:text="@+string/about"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_margin="30dip"
+				android:background="@drawable/btn_black" 
+				style="@style/ButtonText"
+				/>
+		
+			<Button
+				android:id="@+id/button_exit"
+				android:text="@+string/exit"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_margin="30dip"
+				android:background="@drawable/btn_red" 
+				style="@style/ButtonText"
+				/>
+				
+		</LinearLayout>
+		
+</ScrollView>

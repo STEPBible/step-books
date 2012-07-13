@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu 
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<item 
+		android:title="Choose Book" 
+		android:id="@+id/menu_choose_book"
+		android:icon="@android:drawable/ic_menu_info_details"
+		 />	
+	<item 
+		android:title="Choose Reference" 
+		android:id="@+id/menu_choose_ref"
+		android:icon="@android:drawable/ic_menu_preferences" 
+		/>
+	<item 
+		android:title="Help" 
+		android:id="@+id/menu_help"
+		android:icon="@android:drawable/ic_menu_info_details"
+		 />	
+	<item 
+		android:title="Cancel" 
+		android:id="@+id/menu_cancel"
+		android:icon="@android:drawable/ic_menu_close_clear_cancel" 
+		/>
+</menu>

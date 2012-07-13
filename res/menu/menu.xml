@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+	<item 
+		android:title="Choose book" 
+		android:id="@+id/menu_choosebook"
+		android:icon="@+drawable/ic_menu_book"
+	/>
+	<item 
+		android:title="Choose reference" 
+		android:id="@+id/menu_chooseref"
+		android:icon="@android:drawable/ic_menu_today"
+	/>		 
+    <item 
+		android:title="Settings" 
+		android:id="@+id/menu_settings"
+		android:icon="@android:drawable/ic_menu_preferences"
+	/>
+	<item 
+		android:title="Help" 
+		android:id="@+id/menu_help"
+		android:icon="@android:drawable/ic_menu_info_details"
+	/>		 
+	<item 
+		android:title="Exit" 
+		android:id="@+id/menu_exit"
+		android:icon="@android:drawable/ic_menu_close_clear_cancel" 
+		/>
+</menu>
+
+<!-- 
+	<item 
+		android:title="Contacts" 
+		android:id="@+id/menu_contacts"
+		android:icon="@android:drawable/ic_menu_view" 
+	/>
+ -->

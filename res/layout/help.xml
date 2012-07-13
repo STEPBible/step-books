@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:padding="10dip" >
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:orientation="vertical"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    >
+	    <ScrollView
+	        xmlns:android="http://schemas.android.com/apk/res/android"
+	        android:layout_width="match_parent"
+	        android:layout_height="200dip"
+	        android:scrollbarAlwaysDrawVerticalTrack="true"
+	        android:scrollbarDefaultDelayBeforeFade="2000"
+	        android:padding="10dip" >
+	        <TextView
+				android:id="@+id/help_content"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:lineSpacingExtra="4dip"
+				android:paddingBottom="4dip"
+				android:text="@string/help_text" 
+				android:scrollbarAlwaysDrawVerticalTrack="true"
+			/>
+		</ScrollView>
+	<Button
+		android:id="@+id/button_lookup_wikipedia"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Tic-Tac-Toe on Wikipedia"
+		/>
+	<Button
+		android:id="@+id/button_lookup_wikipedia_in_web_view"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Tic-Tac-Toe on Wikipedia in Web View"
+		/>
+	<Button
+		android:id="@+id/button_help_ok"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Exit Help"
+		/>
+	</LinearLayout>
+</ScrollView>

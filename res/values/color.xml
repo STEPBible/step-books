@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="background">#676767</color>
+	<color name="dark">#CC545454</color>
+	<color name="light">#AADEDEDE</color>
+	<color name="white">#FFFFFF</color>
+	<color name="black">#000000</color>
+	<color name="green">#CC99FF00</color>
+    <color name="selectedBlock">#66FF0000</color>
+</resources>

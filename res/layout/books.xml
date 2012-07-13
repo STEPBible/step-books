@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/menu1"
+    android:padding="10dip" >
+    
+	<TableLayout 
+	    android:id="@+id/tableLayout1"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" 
+	    android:stretchColumns="1"
+	    android:shrinkColumns="1"
+	    android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="10dip" 
+	    android:background="@color/dark">
+	 
+	    <!-- 2 columns -->
+	    <TableRow
+	        android:id="@+id/tableRow1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:padding="10dip" >
+	        
+	        <ImageView
+	            android:id="@+id/imageView1"
+	            android:layout_width="120dip"
+	            android:layout_height="150dip" 
+	            android:gravity="center" />
+	 
+	        <TextView
+	            android:id="@+id/textView1"
+	            android:paddingRight="20dip"
+	            android:gravity="center"
+	            android:layout_gravity="center"
+	            android:scrollHorizontally="false"
+	            android:textAppearance="?android:attr/textAppearanceLarge" />
+	 
+	    </TableRow>
+	    <TableRow
+	        android:id="@+id/tableRow2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:padding="5dip" >
+	        
+	        <TextView
+	    		android:id="@+id/textView2"
+	    		android:layout_span="2"
+	    		android:layout_height="150dip"
+			    android:padding="10dip"
+			    android:gravity="center"
+			    android:textAppearance="?android:attr/textAppearanceLarge"
+	    		android:scrollHorizontally="false"
+	    	/>
+	        
+        </TableRow>
+        
+	    <!-- just draw a grey line -->
+    	<View
+        	android:layout_height="1dip"
+        	android:background="@color/light" />
+    </TableLayout>
+    
+	
+	  
+    <ListView 
+        android:id="@+id/listview_books" 
+        android:layout_height="0dip"
+        android:layout_weight="1" 
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginBottom="10dip"
+        android:background="@+color/dark"
+        android:layout_gravity="center"
+    />
+    
+	<TableLayout 
+	    android:id="@+id/tableLayout2"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" 
+	    android:stretchColumns="*"
+	    android:shrinkColumns="*" 
+	    android:gravity="bottom">
+	    
+	    <TableRow
+	        android:id="@+id/tableRow3"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:padding="10dip" >
+	        
+	        <Button
+				android:id="@+id/button_update_books"
+				android:text="@+string/update_books"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:paddingTop="10dip"
+				android:paddingBottom="15dip"
+				android:layout_weight="1"
+				android:layout_width="0dip" 
+				android:background="@drawable/btn_black" 
+			    style="@style/ButtonText"
+			/>
+	        		
+	        <Button
+				android:id="@+id/button_find_book"
+				android:text="@+string/go"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:paddingTop="10dip"
+				android:paddingBottom="15dip"
+				android:layout_weight="1" 
+				android:layout_width="0dip"
+				android:background="@drawable/btn_green" 
+			    style="@style/ButtonText"
+			/>
+	        
+        </TableRow>
+ 
+	</TableLayout>
+	
+	<!-- 
+	<TextView
+	    android:id="@+id/textView2"
+	    android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+	    android:padding="10dip"
+	    android:gravity="center"
+	    android:scrollHorizontally="false"
+	    />
+	-->
+	
+	
+</LinearLayout>

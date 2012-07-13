@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" 
+  android:title="Settings"
+  android:background="@color/background">
+  <EditTextPreference
+  	android:key="name"
+  	android:title="Player Info"
+  	android:summary="Select your name"
+  	android:defaultValue="Player 1"
+  /> 
+  <CheckBoxPreference
+  	android:key="human_starts"
+  	android:title="Human Plays First"
+  	android:summary="Check box to play first"
+  	android:defaultValue="true"
+  />
+</PreferenceScreen>

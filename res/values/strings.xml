@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World!</string>
+    <string name="app_name">Tyndale House STEP Viewer</string>
+    <string name="options">STEP Reader Options</string>
+    <string name="exit">Exit</string>
+    <string name="quit_message">Quit STEP Viewer?</string>
+    <string name="help_text">This is the help text</string>
+    <string name="downloads">Manage Content</string>
+    <string name="download">Download Page</string>
+    <string name="download_index">Download book index</string>
+    <string name="download_books">Download Book Indexes</string>
+    <string name="download_index_message">Do you want to download the index for this book?</string>
+    <string name="download_message">You do not currently have this page. Do you want to download it?</string>
+    <string name="index_available">The index for this book has already been downloaded</string>
+    <string name="network_unavailable">Network currently unavailable</string>
+    <string name="open_lex_library">Open Lexicon Library</string>
+    <string name="open_comm_library">Open Commentary Library</string>
+    <string name="about">About</string>
+    
+    <string name="about_message">Scripture Tools for Every Person is a Tyndale House project to build high quality free Bible tools for far-flung believers, pastors and scholars.\n\nIt aims to supply trustworthy resources for phones and low-spec computers with intermittent internet access.</string>
+    <string name="coming_soon">Commentary library coming soon!</string>
+    
+    <string name="available_books">Available books</string>
+    <string name="update_books">Update list</string>
+    <string name="update_books_message">Would you like to download an updated list of books?</string>
+    <string name="no_books">You currently do not have any book indexes</string>
+    
+    <string name="select_vol">Select storage volume</string>
+    <string name="select_vol_message">Please select which storage volume you want to use to store STEP reader resources</string>
+    <string name="select_existing_vol_message">You have existing STEP directories. Please select which volume you want to use.</string>
+
+    <string name="index_missing">Error: Index file missing</string>
+    
+    <string name="go">Go</string>
+    <string name="no_book">Please select a book first</string>
+    
+    <string name="choose_ref">Find</string>
+    <string name="choose_ref1">Choose a letter</string>
+    <string name="choose_ref2">Choose a page</string>
+    <string name="choose_ref2a">Choose page beginning with word</string>
+    
+    <string name="choose_book">Select a book</string>
+    <string-array name="books">
+        <item>Crum</item>
+        <item>Gesenius</item>
+        <item>Jastrow</item>
+        <item>Lane</item>
+        <item>PayneSmith</item>
+        <item>Wilson</item>
+    </string-array>
+
+    <string name="choose_starting_letter">Choose starting letter</string>
+    <string name="choose_word">Choose word</string>
+    <string-array name="alphabet">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+    </string-array>
+    
+    <string-array name="A">
+        <item>@string/a</item>
+        <item>@string/b</item>
+        <item>@string/c</item>
+        <item>@string/d</item>
+        <item>@string/e</item>
+        <item>@string/f</item>
+        <item>@string/g</item>
+        <item>@string/h</item>
+        <item>@string/i</item>
+        <item>@string/j</item>
+        <item>@string/k</item>
+        <item>@string/l</item>
+        <item>@string/m</item>
+        <item>@string/n</item>
+        <item>@string/o</item>
+        <item>@string/p</item>
+        <item>@string/q</item>
+        <item>@string/r</item>
+        <item>@string/s</item>
+        <item>@string/t</item>
+        <item>@string/u</item>
+        <item>@string/v</item>
+        <item>@string/w</item>
+        <item>@string/x</item>
+        <item>@string/y</item>
+        <item>@string/z</item>
+        <item>@string/zz</item>
+    </string-array>
+
+    <string name="a">A</string>
+    <string name="b">ABI</string>
+    <string name="c">ABOLISH</string>
+    <string name="d">ABOUT</string>
+    <string name="e">ACCOMPLISH</string>
+    <string name="f">ACT</string>
+    <string name="g">ADONI</string>
+    <string name="h">AFFAIRS</string>
+    <string name="i">AFORE</string>
+    <string name="j">AFTERNOON</string>
+    <string name="k">AGREEMENT</string>
+    <string name="l">ALMIGHTY</string>
+    <string name="m">ALTOGETHER</string>
+    <string name="n">AMONG</string>
+    <string name="o">ANOINT</string>
+    <string name="p">ANT</string>
+    <string name="q">APACE</string>
+    <string name="r">APPEASE</string>
+    <string name="s">APPROACH</string>
+    <string name="t">ARCTURUS</string>
+    <string name="u">ARM</string>
+    <string name="v">ARRAY</string>
+    <string name="w">ARTILLERY</string>
+    <string name="x">ASK</string>
+    <string name="y">ASSENT</string>
+    <string name="z">ASUPPIM</string>
+    <string name="zz">AVEN</string>
+
+	
+</resources>
+
+<!-- 
+    <string name="1">A</string>
+    <string name="2">ABI</string>
+    <string name="3">ABOLISH</string>
+    <string name="4">ABOUT</string>
+    <string name="5">ACCOMPLISH</string>
+    <string name="6">ACT</string>
+    <string name="7">ADONI</string>
+    <string name="8">AFFAIRS</string>
+    <string name="9">AFORE</string>
+    <string name="10">AFTERNOON</string>
+    <string name="11">AGREEMENT</string>
+    <string name="12">ALMIGHTY</string>
+    <string name="13">ALTOGETHER</string>
+    <string name="14">AMONG</string>
+    <string name="15">ANOINT</string>
+    <string name="16">ANT</string>
+    <string name="17">APACE</string>
+    <string name="18">APPEASE</string>
+    <string name="19">APPROACH</string>
+    <string name="20">ARCTURUS</string>
+    <string name="21">ARM</string>
+    <string name="22">ARRAY</string>
+    <string name="23">ARTILLERY</string>
+    <string name="24">ASK</string>
+    <string name="25">ASSENT</string>
+    <string name="26">ASUPPIM</string>
+    <string name="27">AVEN</string>
+    <string name="28">BABE</string>
+    <string name="29">BALANCE</string>
+    <string name="30">BANQUET</string>
+    <string name="31">BASE</string>
+    <string name="32">BAY</string>
+    <string name="33">BEAN</string>
+    <string name="34">BEAR</string>
+    <string name="35">BEAUTY</string>
+    <string name="36">BEE</string>
+    <string name="37">BEGUILE</string>
+    <string name="38">BELL</string>
+    <string name="39">BENJAMIN</string>
+    <string name="40">BESTOW</string>
+    <string name="41">BIER</string>
+    <string name="42">BIRD</string>
+    <string name="43">BLADE</string>
+    <string name="44">BLESS</string>
+    <string name="45">BLOOD</string>
+    <string name="46">BLUE</string>
+    <string name="47">BOIL</string>
+    <string name="48">BORDER</string>
+    <string name="49">BOTTOM</string>
+    <string name="50">BOWMAN</string>
+    <string name="51">BOX</string>
+    <string name="52">BRASS</string>
+    <string name="53">BREAK</string>
+    <string name="54">BREAST</string>
+    <string name="55">BREASTPLATE</string>
+    <string name="56">BRIM</string>
+    <string name="57">BRING</string>
+    <string name="58">BRING2</string>
+    <string name="59">BRINK</string>
+    <string name="60">BROTH</string>
+    <string name="61">BUL</string>
+    <string name="62">BUNCH</string>
+    <string name="63">BURST</string>
+    <string name="64">BUSH</string>
+    <string name="65">CABIN</string>
+    <string name="66">CALM</string>
+    <string name="67">CAMP</string>
+    <string name="68">CAPTIVE</string>
+    <string name="69">CARCASE</string>
+    <string name="70">CART</string>
+    <string name="71">CAST</string>
+    <string name="72">CASTLE</string>
+    <string name="73">CAUL</string>
+    <string name="74">CEDAR</string>
+    <string name="75">CHALK</string>
+    <string name="76">CHANCELLOR</string>
+    <string name="77">CHARGEABLE</string>
+    <string name="78">CHEEK</string>
+    <string name="79">CHILDLESS</string>
+    <string name="80">CHOLER</string>
+    <string name="81">CLAMOROUS</string>
+    <string name="82">CLEAVE</string>
+    <string name="83">CLOKE</string>
+    <string name="84">CLOUT</string>
+    <string name="85">COLLAR</string>
+    <string name="86">COME</string>
+    <string name="87">COME2</string>
+    <string name="88">COME3</string>
+    <string name="89">COME4</string>
+    <string name="90">COMFORT</string>
+    <string name="91">COMMEND</string>
+    <string name="92">COMMOTION</string>
+    <string name="93">COMPASSION</string>
+    <string name="94">CONCEIVE</string>
+    <string name="95">CONFISCATION</string>
+    <string name="96">CONSENT</string>
+    <string name="97">CONSULT</string>
+    <string name="98">CONTEND</string>
+    <string name="99">CONTRARY</string>
+    <string name="100">COPY</string>
+    <string name="101">COST</string>
+    <string name="102">COUNTENANCE</string>
+    <string name="103">COURT</string>
+    <string name="104">COVET</string>
+    <string name="105">CRACKNEL</string>
+    <string name="106">CROOKED</string>
+    <string name="107">CRY</string>
+    <string name="108">CRYSTAL</string>
+    <string name="109">CURSE</string>
+    <string name="110">CUT</string>
+    <string name="111">CYMBALS</string>
+    <string name="112">DARLING</string>
+    <string name="113">DEAF</string>
+    <string name="114">DEBASE</string>
+    <string name="115">DECLARE</string>
+    <string name="116">DEED</string>
+    <string name="117">DEFER</string>
+    <string name="118">DELIGHT</string>
+    <string name="119">DELIVER</string>
+    <string name="120">DEMAND</string>
+    <string name="121">DEPOSE</string>
+    <string name="122">DESOLATE</string>
+    <string name="123">DESPAIR</string>
+    <string name="124">DESTROY</string>
+    <string name="125">DESTROY2</string>
+    <string name="126">DETAIN</string>
+    <string name="127">DEW</string>
+    <string name="128">DIET</string>
+    <string name="129">DIGNITY</string>
+    <string name="130">DIRECTLY</string>
+    <string name="131">DISDAIN</string>
+    <string name="132">DISPOSE</string>
+    <string name="133">DISTRIBUTE</string>
+    <string name="134">DO</string>
+    <string name="135">DO2</string>
+    <string name="136">DOCTRINE</string>
+    <string name="137">DOTE</string>
+    <string name="138">DREAD</string>
+    <string name="139">DRINK</string>
+    <string name="140">DRINK-OFFERING</string>
+    <string name="141">DROSS</string>
+    <string name="142">DUMB</string>
+    <string name="143">DWELL</string>
+    <string name="144">EAGLE</string>
+    <string name="145">EARTHQUAKE</string>
+    <string name="146">EAT</string>
+    <string name="147">EFFECT</string>
+    <string name="148">EMPLOY</string>
+    <string name="149">ENDAMAGE</string>
+    <string name="150">ENFLAME</string>
+    <string name="151">ENRICH</string>
+    <string name="152">ENVIRON</string>
+    <string name="153">ESCHEW</string>
+    <string name="154">ESTRANGE</string>
+    <string name="155">EVIL</string>
+    <string name="156">EXCEL</string>
+    <string name="157">EXERCISE</string>
+    <string name="158">FACE</string>
+    <string name="159">FAIR</string>
+    <string name="160">FALL</string>
+    <string name="161">FALLOW</string>
+    <string name="162">FAR</string>
+    <string name="163">FATS</string>
+    <string name="164">FEAR</string>
+    <string name="165">FEAST</string>
+    <string name="166">FEEL</string>
+    <string name="167">FERRY</string>
+    <string name="168">FIGURE</string>
+    <string name="169">FIND</string>
+    <string name="170">FINE</string>
+    <string name="171">FIRST</string>
+    <string name="172">FLAGON</string>
+    <string name="173">FLEECE</string>
+    <string name="174">FLOOD</string>
+    <string name="175">FLUTE</string>
+    <string name="176">FOOD</string>
+    <string name="177">FOOT</string>
+    <string name="178">FORBID</string>
+    <string name="179">FORFEIT</string>
+    <string name="180">FORNICATION</string>
+    <string name="181">FOUL</string>
+    <string name="182">FRAME</string>
+    <string name="183">FROG</string>
+    <string name="184">FULFIL</string>
+    <string name="185">FURNISH</string>
+    <string name="186">GAMMADIMS</string>
+    <string name="187">GATHER</string>
+    <string name="188">GAZE</string>
+    <string name="189">GERAH</string>
+    <string name="190">GIN</string>
+    <string name="191">GIVE</string>
+    <string name="192">GIVE2</string>
+    <string name="193">GLAD</string>
+    <string name="194">GLUTTON</string>
+    <string name="195">GO</string>
+    <string name="196">GO2</string>
+    <string name="197">GO3</string>
+    <string name="198">GO4</string>
+    <string name="199">GO5</string>
+    <string name="200">GOAT</string>
+    <string name="201">GODLY</string>
+    <string name="202">GOOD</string>
+    <string name="203">GOPHER</string>
+    <string name="204">GRAPE</string>
+    <string name="205">GREAT</string>
+    <string name="206">GREEN</string>
+    <string name="207">GRIND</string>
+    <string name="208">GRUDGE</string>
+    <string name="209">GUSH</string>
+    <string name="210">HALF</string>
+    <string name="211">HANDMAID</string>
+    <string name="212">HARE</string>
+    <string name="213">HART</string>
+    <string name="214">HAUGHTY</string>
+    <string name="215">HEAP</string>
+    <string name="216">HEAR</string>
+    <string name="217">HEART</string>
+    <string name="218">HEAVE</string>
+    <string name="219">HEEL</string>
+    <string name="220">HELVE</string>
+    <string name="221">HIDE</string>
+    <string name="222">HIDE2</string>
+    <string name="223">HILL</string>
+    <string name="224">HOLD</string>
+    <string name="225">HOLY</string>
+    <string name="226">HOOD</string>
+    <string name="227">HORSE</string>
+    <string name="228">HUGE</string>
+    <string name="229">HUSBANDMAN</string>
+    <string name="230">IGNOMINY</string>
+    <string name="231">INCENSE</string>
+    <string name="232">INDITING</string>
+    <string name="233">INHERIT</string>
+    <string name="234">INJUSTICE</string>
+    <string name="235">INSTRUMENT</string>
+    <string name="236">INVENT</string>
+    <string name="237">JAVELIN</string>
+    <string name="238">JOURNEY</string>
+    <string name="239">JUDGE</string>
+    <string name="240">JUICE</string>
+    <string name="241">KERCHIEFS</string>
+    <string name="242">KIN</string>
+    <string name="243">KINDRED</string>
+    <string name="244">KNIT</string>
+    <string name="245">KNOW</string>
+    <string name="246">LACE</string>
+    <string name="247">LAMP</string>
+    <string name="248">LAPWING</string>
+    <string name="249">LAY</string>
+    <string name="250">LEAD</string>
+    <string name="251">LEARN</string>
+    <string name="252">LEAVEN</string>
+    <string name="253">LENGTH</string>
+    <string name="254">LEWD</string>
+    <string name="255">LIEUTENANTS</string>
+    <string name="256">LIFE</string>
+    <string name="257">LIFT</string>
+    <string name="258">LIGHT</string>
+    <string name="259">LIKING</string>
+    <string name="260">LIP</string>
+    <string name="261">LOAF</string>
+    <string name="262">LONG</string>
+    <string name="263">LOOPS</string>
+    <string name="264">LOSE</string>
+    <string name="265">LOVE</string>
+    <string name="266">LOW</string>
+    <string name="267">MAID</string>
+    <string name="268">MAKE</string>
+    <string name="269">MAKE2</string>
+    <string name="270">MALLOWS</string>
+    <string name="271">MAN</string>
+    <string name="272">MANDRAKES</string>
+    <string name="273">MAR</string>
+    <string name="274">MASCHIL</string>
+    <string name="275">MEAN</string>
+    <string name="276">MEEK</string>
+    <string name="277">MELZAR</string>
+    <string name="278">MERCY</string>
+    <string name="279">METHINKETH</string>
+    <string name="280">MILCH</string>
+    <string name="281">MINISH</string>
+    <string name="282">MIST</string>
+    <string name="283">MONSTER</string>
+    <string name="284">MORSEL</string>
+    <string name="285">MOUSE</string>
+    <string name="286">MOW</string>
+    <string name="287">MULTITUDE</string>
+    <string name="288">MYRTLE</string>
+    <string name="289">NARROW</string>
+    <string name="290">NECESSARY</string>
+    <string name="291">NET</string>
+    <string name="292">NITRE</string>
+    <string name="293">NOTICE</string>
+    <string name="294">NUT</string>
+    <string name="295">OBSTINATE</string>
+    <string name="296">OFFER</string>
+    <string name="297">OFFICE</string>
+    <string name="298">OLD</string>
+    <string name="299">OPEN</string>
+    <string name="300">OPPRESS</string>
+    <string name="301">ORDINANCE</string>
+    <string name="302">OUCHES</string>
+    <string name="303">OVERLAY</string>
+    <string name="304">OVERTURN</string>
+    <string name="305">PAINT</string>
+    <string name="306">PANG</string>
+    <string name="307">PARTAKER</string>
+    <string name="308">PAST</string>
+    <string name="309">PAW</string>
+    <string name="310">PENURY</string>
+    <string name="311">PERFORM</string>
+    <string name="312">PERPLEX</string>
+    <string name="313">PESTILENCE</string>
+    <string name="314">PILLED</string>
+    <string name="315">PITCHER</string>
+    <string name="316">PLAIN</string>
+    <string name="317">PLAT</string>
+    <string name="318">PLEASE</string>
+    <string name="319">PLUCK</string>
+    <string name="320">POLISH</string>
+    <string name="321">POOR</string>
+    <string name="322">POSSESS</string>
+    <string name="323">POSTS</string>
+    <string name="324">POURTRAY</string>
+    <string name="325">PRACTISE</string>
+    <string name="326">PREACH</string>
+    <string name="327">PRESCRIBE</string>
+    <string name="328">PRESENTLY</string>
+    <string name="329">PREVENT</string>
+    <string name="330">PRIEST</string>
+    <string name="331">PRINCIPAL</string>
+    <string name="332">PROCURE</string>
+    <string name="333">PROMOTE</string>
+    <string name="334">PROSTITUTE</string>
+    <string name="335">PRUDENCE</string>
+    <string name="336">PUR</string>
+    <string name="337">PURPOSE</string>
+    <string name="338">PUT</string>
+    <string name="339">PUTRIFYING</string>
+    <string name="340">QUESTION</string>
+    <string name="341">RAIMENT</string>
+    <string name="342">RAISINS</string>
+    <string name="343">RAVENOUS</string>
+    <string name="344">REASON</string>
+    <string name="345">RECKON</string>
+    <string name="346">RED</string>
+    <string name="347">REFUSE</string>
+    <string name="348">REINS</string>
+    <string name="349">RELEASE</string>
+    <string name="350">REMEDY</string>
+    <string name="351">REMOVE</string>
+    <string name="352">RENDER</string>
+    <string name="353">REPROBATE</string>
+    <string name="354">RESCUE</string>
+    <string name="355">REST</string>
+    <string name="356">RESTRAIN</string>
+    <string name="357">REVEAL</string>
+    <string name="358">RIB</string>
+    <string name="359">RIE</string>
+    <string name="360">RIGOUR</string>
+    <string name="361">RITE</string>
+    <string name="362">ROAST</string>
+    <string name="363">ROE</string>
+    <string name="364">ROPE</string>
+    <string name="365">RUBIES</string>
+    <string name="366">RUN</string>
+    <string name="367">SACRIFICE</string>
+    <string name="368">SAKE</string>
+    <string name="369">SAND</string>
+    <string name="370">SAVOUR</string>
+    <string name="371">SAY</string>
+    <string name="372">SAY2</string>
+    <string name="373">SCAPEGOAT</string>
+    <string name="374">SCENT</string>
+    <string name="375">SCRIP</string>
+    <string name="376">SEASON</string>
+    <string name="377">SECRET</string>
+    <string name="378">SEE</string>
+    <string name="379">SEE2</string>
+    <string name="380">SEEK</string>
+    <string name="381">SEETHE</string>
+    <string name="382">SEND</string>
+    <string name="383">SENSE</string>
+    <string name="384">SERVE</string>
+    <string name="385">SET</string>
+    <string name="386">SET2</string>
+    <string name="387">SETTLE</string>
+    <string name="388">SHAKE</string>
+    <string name="389">SHARP</string>
+    <string name="390">SHEEPMASTER</string>
+    <string name="391">SHIBBOLETH</string>
+    <string name="392">SHIP</string>
+    <string name="393">SHOSHANNIM</string>
+    <string name="394">SHRANK</string>
+    <string name="395">SICKLE</string>
+    <string name="396">SIGN</string>
+    <string name="397">SIMILITUDE</string>
+    <string name="398">SING</string>
+    <string name="399">SIT</string>
+    <string name="400">SKIN</string>
+    <string name="401">SLAY</string>
+    <string name="402">SLIDE</string>
+    <string name="403">SMART</string>
+    <string name="404">SMITH</string>
+    <string name="405">SNATCH</string>
+    <string name="406">SOLACE</string>
+    <string name="407">SOOTHSAYER</string>
+    <string name="408">SORT</string>
+    <string name="409">SOUND</string>
+    <string name="410">SPAN</string>
+    <string name="411">SPEAK</string>
+    <string name="412">SPEAR</string>
+    <string name="413">SPEND</string>
+    <string name="414">SPOIL</string>
+    <string name="415">SPREAD</string>
+    <string name="416">SPROUT</string>
+    <string name="417">STAIN</string>
+    <string name="418">STAND</string>
+    <string name="419">STANDARD</string>
+    <string name="420">STEADY</string>
+    <string name="421">STING</string>
+    <string name="422">STOOL</string>
+    <string name="423">STORM</string>
+    <string name="424">STRANGE</string>
+    <string name="425">STREW</string>
+    <string name="426">STRIPE</string>
+    <string name="427">STRONG</string>
+    <string name="428">STRONG2</string>
+    <string name="429">STUBBORN</string>
+    <string name="430">SUBTIL</string>
+    <string name="431">SUFFER</string>
+    <string name="432">SUNRISING</string>
+    <string name="433">SWADDLE</string>
+    <string name="434">SWEAT</string>
+    <string name="435">SWIM</string>
+    <string name="436">TABRET</string>
+    <string name="437">TAKE</string>
+    <string name="438">TAKE2</string>
+    <string name="439">TAKE3</string>
+    <string name="440">TALE</string>
+    <string name="441">TASK</string>
+    <string name="442">TEARS</string>
+    <string name="443">TEMAN</string>
+    <string name="444">TERAPHIM</string>
+    <string name="445">THICK</string>
+    <string name="446">THINK</string>
+    <string name="447">THOROUGHLY</string>
+    <string name="448">THROAT</string>
+    <string name="449">TIDE</string>
+    <string name="450">TIN</string>
+    <string name="451">TOLL</string>
+    <string name="452">TOW</string>
+    <string name="453">TRAIN</string>
+    <string name="454">TREACHEROUS</string>
+    <string name="455">TREMBLE</string>
+    <string name="456">TRIBULATION</string>
+    <string name="457">TROUBLE</string>
+    <string name="458">TRUMPET</string>
+    <string name="459">TURN</string>
+    <string name="460">TURN2</string>
+    <string name="461">TURTLE</string>
+    <string name="462">UNCLE</string>
+    <string name="463">UNDERTAKE</string>
+    <string name="464">UNPROFITABLE</string>
+    <string name="465">UPRISING</string>
+    <string name="466">UTTER</string>
+    <string name="467">VALE</string>
+    <string name="468">VAUNT</string>
+    <string name="469">VIAL</string>
+    <string name="470">VINEYARD</string>
+    <string name="471">VISIT</string>
+    <string name="472">WAGES</string>
+    <string name="473">WALL</string>
+    <string name="474">WANT</string>
+    <string name="475">WARM</string>
+    <string name="476">WATCH</string>
+    <string name="477">WAVE</string>
+    <string name="478">WEALTH</string>
+    <string name="479">WEAVE</string>
+    <string name="480">WELFARE</string>
+    <string name="481">WHEEL</string>
+    <string name="482">WHORE</string>
+    <string name="483">WICKED</string>
+    <string name="484">WILE</string>
+    <string name="485">WINE</string>
+    <string name="486">WINTER</string>
+    <string name="487">WIST</string>
+    <string name="488">WITHS</string>
+    <string name="489">WONT</string>
+    <string name="490">WORK</string>
+    <string name="491">WORLD</string>
+    <string name="492">WOULD</string>
+    <string name="493">WRATH</string>
+    <string name="494">WRONG</string>
+    <string name="495">YIELD</string>
+    <string name="496">YOUNG</string>
+    <string name="496a">ZEAL</string>
+ -->

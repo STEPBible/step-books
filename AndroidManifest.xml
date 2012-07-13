@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	package="tynstep.android.viewer"
+	android:versionCode="1"
+	android:versionName="1.0">
+	<uses-sdk android:minSdkVersion="8" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+	<uses-permission android:name="android.permission.READ_PHONE_STATE"></uses-permission>
+	
+	<application
+		android:icon="@drawable/thouse_rounded"
+		android:label="@string/app_name"
+		android:debuggable="true"
+		android:theme="@android:style/Theme.Light">
+        
+        <activity 
+            android:name=".SplashScreenActivity"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:label="@string/app_name"
+            android:launchMode="standard"	
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        
+		<activity
+			android:name=".ViewerActivity"
+			android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+			android:label="@string/app_name"
+            android:launchMode="standard" >
+			<intent-filter>
+				<action android:name="tynstep.android.viewer.ViewerActivity" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		
+		<activity
+			android:name=".OptionsActivity"
+			android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+			android:label="@string/options"
+            android:launchMode="standard" 
+            android:screenOrientation="portrait">
+			<intent-filter>
+				<action android:name="tynstep.android.viewer.OptionsActivity" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		
+		<activity
+			android:name=".AboutActivity"
+			android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+			android:label="@string/about"
+            android:launchMode="standard" 
+            android:screenOrientation="portrait">
+			<intent-filter>
+				<action android:name="tynstep.android.viewer.AboutActivity" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		
+		<activity
+			android:name=".ChooseRefActivity"
+			android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+			android:label="@string/choose_ref"
+            android:launchMode="standard" >
+			<intent-filter>
+				<action android:name="tynstep.android.viewer.ChooseRefActivity" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		
+		<activity
+			android:name=".ChooseBookActivity"
+			android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+			android:label="@string/choose_book"
+            android:launchMode="standard" >
+			<intent-filter>
+				<action android:name="tynstep.android.viewer.ChooseBookActivity" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		
+		<activity
+			android:name=".BooksActivity"
+			android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+			android:label="@string/download_books"
+            android:launchMode="standard" 
+            android:screenOrientation="portrait">
+			<intent-filter>
+				<action android:name="tynstep.android.viewer.BooksActivity" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		
+	</application>
+</manifest>
