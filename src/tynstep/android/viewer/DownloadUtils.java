@@ -20,6 +20,7 @@ import org.apache.http.util.EntityUtils;
 import android.content.Context;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
+import android.util.Log;
 import android.widget.Toast;
 
 
@@ -71,6 +72,7 @@ public class DownloadUtils {
 //                fOut.flush();
 //                fOut.close();
             } catch (IOException e) {
+//            	Log.d("error","I am here!");
             	Toast.makeText(context, "Error: "+e, Toast.LENGTH_LONG).show();
             }
     }
